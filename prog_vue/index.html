@@ -21,6 +21,7 @@
                     <div>
                         <select id="base-select" class="form-select" name="base-select">
                             <option value="" selected>Seleziona un genere</option>
+                            <option v-for="genre in genres" :key="genre">{{genre}}</option>
                         </select>
                     </div>
                 </div>
