@@ -1,0 +1,20 @@
+.primary_color {
+  color: #2e3a46;
+}
+body {
+  background-color: #1e2d3b;
+}
+
+header {
+  background-color: #2e3a46;
+}
+header .nav {
+  height: 70px;
+}
+header .nav img {
+  height: 50px;
+  width: 50px;
+}
+.album-card figure {
+    background-color: #2e3a46;
+}
